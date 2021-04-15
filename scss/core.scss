@@ -3,7 +3,7 @@ nav ul{
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns:repeat(4, 1fr);
+    grid-template-columns:repeat(5, 1fr);
     width:100%;
     max-width: 1200px;
     li{
@@ -12,7 +12,7 @@ nav ul{
             text-decoration: none;
             text-align: center;
             display: inline-block;
-            box-shadow: $shadow;
+            /*box-shadow: $shadow;*/
             width: 100%;
             padding: 0.5em;
             padding-top: 0.5em;
@@ -31,7 +31,7 @@ nav ul{
     li:nth-child(1){
         border-left: none;
     }
-    li:nth-child(4){
+    li:nth-child(5){
         border-right: none;
     }
     
