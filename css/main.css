@@ -1,0 +1,45 @@
+nav ul {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  margin: 0;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  max-width: 1200px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  /*box-shadow: $shadow;*/
+  width: 100%;
+  padding: 0.5em;
+  padding-top: 0.5em;
+  color: lightgray;
+  border-color: #004d4d;
+  border-style: solid;
+  border-width: 2px;
+  border-top: none;
+  border-right: none;
+}
+
+nav ul li a:hover {
+  color: whitesmoke;
+}
+
+nav ul li:nth-child(1) {
+  border-left: none;
+}
+
+nav ul li:nth-child(5) {
+  border-right: none;
+}
+/*# sourceMappingURL=main.css.map */
