@@ -1,0 +1,38 @@
+nav ul{
+    grid-row: 1;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    width:100%;
+    max-width: 1200px;
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+            text-align: center;
+            display: inline-block;
+            box-shadow: $shadow;
+            width: 100%;
+            padding: 0.5em;
+            padding-top: 0.5em;
+            color: lightgray;
+            border-color:#004d4d;
+            border-style:solid;
+            border-width: 2px;
+            border-top: none;
+            border-right: none;
+        }
+        a:hover{
+            color: whitesmoke;
+        }
+        
+    }
+    li:nth-child(1){
+        border-left: none;
+    }
+    li:nth-child(4){
+        border-right: none;
+    }
+    
+}
