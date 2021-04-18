@@ -1,3 +1,10 @@
+html {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 4, 1fr;
+      grid-template-rows: 4, 1fr;
+}
+
 body {
   background-color: #181c25;
   max-width: 768px;
