@@ -1,9 +1,12 @@
 body {
-  background-color: blue;
+  background-color: #181c25;
   max-width: 768px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul {
+  font-weight: bold;
+  background-color: #24272e;
   -ms-grid-row: 1;
   grid-row: 1;
   margin: 0;
@@ -13,7 +16,7 @@ nav ul {
   -ms-grid-columns: (1fr)[5];
       grid-template-columns: repeat(5, 1fr);
   width: 100%;
-  max-width: 768px;
+  max-width: 1200px;
 }
 
 nav ul li {
@@ -32,11 +35,14 @@ nav ul li a {
   border-color: #004d4d;
   border-style: solid;
   border-width: 2px;
-  border-top: none;
   border-right: none;
 }
 
 nav ul li a:hover {
   color: whitesmoke;
+}
+
+nav ul li a:last-child {
+  border-right-style: solid;
 }
 /*# sourceMappingURL=main.css.map */

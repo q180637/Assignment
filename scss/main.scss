@@ -1,15 +1,18 @@
 body{
-    background-color: gray;
+    background-color: #181c25;
     max-width: 768px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav ul{
+    font-weight: bold;
+    background-color: #24272e;
     grid-row: 1;
     margin: 0;
     padding: 0;
     display: grid;
     grid-template-columns:repeat(5, 1fr);
     width:100%;
-    max-width: 768px;
+    max-width: 1200px;
     li{
         list-style: none;
         a{
@@ -24,11 +27,13 @@ nav ul{
             border-color:#004d4d;
             border-style:solid;
             border-width: 2px;
-            border-top: none;
             border-right: none;
         }
         a:hover{
             color: whitesmoke;
+        }
+        a:last-child{
+            border-right-style: solid;
         }
         
     }
