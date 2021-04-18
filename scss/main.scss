@@ -1,5 +1,6 @@
 body{
-    background-color: darkslategray;
+    background-color: darkgray;
+    max-width: 768px;
 }
 nav ul{
     grid-row: 1;
@@ -8,7 +9,7 @@ nav ul{
     display: grid;
     grid-template-columns:repeat(5, 1fr);
     width:100%;
-    max-width: 1200px;
+    max-width: 768px;
     li{
         list-style: none;
         a{
@@ -30,12 +31,6 @@ nav ul{
             color: whitesmoke;
         }
         
-    }
-    li:nth-child(1){
-        border-left: none;
-    }
-    li:nth-child(5){
-        border-right: none;
     }
     
 }
