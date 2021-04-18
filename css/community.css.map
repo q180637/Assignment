@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../scss/community.scss"
+        "../Assignment/scss/community.scss"
     ],
     "names": [],
     "file": "community.css"

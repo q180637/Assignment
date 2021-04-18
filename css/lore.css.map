@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../scss/lore.scss"
+        "../Assignment/scss/lore.scss"
     ],
     "names": [],
     "file": "lore.css"

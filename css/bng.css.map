@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../scss/bng.scss"
+        "../Assignment/scss/bng.scss"
     ],
     "names": [],
     "file": "bng.css"
