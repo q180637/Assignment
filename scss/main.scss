@@ -1,6 +1,7 @@
 html{
     display: grid;
     grid-template-rows: 4, 1fr;
+    grid-template-columns: 2, 1fr;
 }
 body{
     background-color: #181c25;
@@ -11,6 +12,7 @@ nav ul{
     font-weight: bold;
     background-color: #24272e;
     grid-row: 1;
+    grid-column: 2;
     margin: 0;
     padding: 0;
     display: grid;
