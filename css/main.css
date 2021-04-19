@@ -76,6 +76,7 @@ body footer {
   padding: 0px;
   height: auto;
   color: lightgray;
+  background-color: #24272e;
 }
 
 body footer a {
@@ -185,6 +186,7 @@ body footer .policy {
     color: black;
   }
   body footer {
+    background-color: #24272e;
     -ms-grid-row: 4;
     grid-row: 4;
     display: -ms-grid;

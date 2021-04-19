@@ -41,5 +41,55 @@
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-column: 1 / span 2;
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+@media only screen and (min-width: 768px) {
+  .main_body_wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 300px 300px;
+        grid-template-rows: 300px 300px;
+    -ms-grid-row: 3;
+    grid-row: 3;
+    -ms-grid-columns: 960px 960px;
+        grid-template-columns: 960px 960px;
+  }
+  .main_body_wrapper .image1 {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    width: 55%;
+    height: auto;
+    padding-left: 236px;
+    /*padding-right: 236px;*/
+  }
+  .main_body_wrapper .image1 img {
+    width: 100%;
+    height: auto;
+  }
+  .main_body_wrapper .image2 {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    width: 55%;
+    height: auto;
+    padding-left: 191px;
+  }
+  .main_body_wrapper .image2 img {
+    width: 100%;
+    height: auto;
+  }
+  .main_body_wrapper .desc {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / span 2;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    padding: 10px;
+  }
 }
 /*# sourceMappingURL=core.css.map */

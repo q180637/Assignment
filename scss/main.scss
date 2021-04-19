@@ -56,6 +56,7 @@ body{
             padding: 0px;
             height:auto;
             color:lightgray;
+            background-color: #24272e;
             a{
                 text-decoration: none;
                 text-align: center;
@@ -83,7 +84,7 @@ body{
 }
 @media only screen and (min-width:768px){
     body{
-        margin:0;
+        margin: 0;
         box-sizing: border-box;
         background-color: #181c25;
         font-family: Arial, Helvetica, sans-serif;
@@ -144,6 +145,7 @@ body{
                 }
             }
             footer{
+                background-color: #24272e;
                 grid-row: 4;
                 display: grid;
                 grid-template-columns: repeat(1, 1fr);
