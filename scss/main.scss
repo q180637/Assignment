@@ -15,10 +15,10 @@ body{
             display: grid;
             grid-template-rows: 4, 1fr;
             grid-template-columns: 2, 1fr;
-            font-size: small;
+            font-size: normal;
             nav ul{
                 font-weight: bold;
-                font-size:large;
+                font-size: large;
                 background-color: #24272e;
                 grid-row: 1;
                 grid-column: 1 / span 2;
@@ -34,7 +34,6 @@ body{
                         text-decoration: none;
                         text-align: center;
                         display: inline-block;
-                        /*box-shadow: $shadow;*/
                         width: 100%;
                         padding: 0.5em;
                         padding-top: 0.5em;
@@ -90,16 +89,16 @@ body{
         font-family: Arial, Helvetica, sans-serif;
         color: lightgray;
         font-weight:normal;
-        max-width: 1920px;
+        max-width: 100%;
             .grid_wrapper{
                 display: grid;
                 grid-template-rows: 4, 1fr;
                 grid-template-columns: 2, 1fr;
-                font-size: small;
+                font-size: normal;
                 grid-gap: 25px;
                 nav ul{
                     font-weight: bold;
-                    font-size:large;
+                    font-size:larger;
                     background-color: #24272e;
                     grid-row: 1;
                     grid-column: 1 / span 2;

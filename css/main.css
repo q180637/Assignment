@@ -22,7 +22,7 @@ body .grid_wrapper {
       grid-template-rows: 4, 1fr;
   -ms-grid-columns: 2, 1fr;
       grid-template-columns: 2, 1fr;
-  font-size: small;
+  font-size: normal;
 }
 
 body .grid_wrapper nav ul {
@@ -52,7 +52,6 @@ body .grid_wrapper nav ul li a {
   text-decoration: none;
   text-align: center;
   display: inline-block;
-  /*box-shadow: $shadow;*/
   width: 100%;
   padding: 0.5em;
   padding-top: 0.5em;
@@ -118,7 +117,7 @@ body footer .policy {
     font-family: Arial, Helvetica, sans-serif;
     color: lightgray;
     font-weight: normal;
-    max-width: 1920px;
+    max-width: 100%;
   }
   body .grid_wrapper {
     display: -ms-grid;
@@ -127,12 +126,12 @@ body footer .policy {
         grid-template-rows: 4, 1fr;
     -ms-grid-columns: 2, 1fr;
         grid-template-columns: 2, 1fr;
-    font-size: small;
+    font-size: normal;
     grid-gap: 25px;
   }
   body .grid_wrapper nav ul {
     font-weight: bold;
-    font-size: large;
+    font-size: larger;
     background-color: #24272e;
     -ms-grid-row: 1;
     grid-row: 1;
