@@ -49,12 +49,12 @@
   .main_body_wrapper {
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: 300px 300px;
-        grid-template-rows: 300px 300px;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
     -ms-grid-row: 3;
     grid-row: 3;
-    -ms-grid-columns: 960px 960px;
-        grid-template-columns: 960px 960px;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
     margin-bottom: 130px;
   }
   .main_body_wrapper .image1 {

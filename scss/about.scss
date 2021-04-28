@@ -16,7 +16,7 @@
         }
         .form-group{
             width: 50%;
-            margin-left:186px ;
+            margin-left:186px;
         }
         .container jf-form{
             margin:0px;
@@ -47,19 +47,19 @@
     .main_body_wrapper{
         grid-row: 3;
         display: grid;
-        grid-template-rows: 300px 300px;
-        grid-template-columns: 960px 960px;
+        grid-template-rows: auto auto;
+        grid-template-columns: 50% 50%;
         margin-bottom: 130px;
         .form{
             grid-column: 1;
             grid-row: 1 / span 2;
             width: 100%;
-            max-width: 960px;
             height: auto;
+            max-width: 100%;
             padding: 0px;
             margin: 0px;
             .form-control{
-                max-width: 960px;
+                max-width: 100%;
             }
             .form-group{
                 width: 50%;
@@ -71,13 +71,14 @@
             grid-column: 2;
             width: 100%;
             height: auto;
+            max-width: 100%;
         }
         .map{
             grid-row: 2;
             grid-column: 2;
             width: 100%;
             height: auto;
-            max-width: 960px;
+            max-width: 100%;
         }
     }
     

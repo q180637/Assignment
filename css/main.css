@@ -142,8 +142,8 @@ body footer .policy {
     padding: 0;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 400px 400px 400px 400px 400px;
-        grid-template-columns: 400px 400px 400px 400px 400px;
+    -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr);
     width: 100%;
     height: auto;
   }
