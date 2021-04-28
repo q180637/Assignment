@@ -1,6 +1,6 @@
 .main_body_wrapper{
     display: grid;
-    grid-template-rows: 250px 250px 250px;
+    grid-template-rows: auto auto auto;
     grid-row: 3;
     grid-template-columns: 768px;
     .form{
