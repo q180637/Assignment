@@ -148,6 +148,7 @@ body footer .policy {
     height: auto;
   }
   body .grid_wrapper nav ul li {
+    max-width: 20%;
     list-style: none;
   }
   body .grid_wrapper nav ul li li:nth-child(1) {

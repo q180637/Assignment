@@ -1,8 +1,8 @@
 .main_body_wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 250px, 250px, 250px;
-      grid-template-rows: 250px, 250px, 250px;
+  -ms-grid-rows: 250px 250px 250px;
+      grid-template-rows: 250px 250px 250px;
   -ms-grid-row: 3;
   grid-row: 3;
   -ms-grid-columns: 768px;
@@ -17,13 +17,13 @@
   grid-row: 2;
   width: 100%;
   height: auto;
-  max-width: 768px;
+  max-width: 100%;
   padding: 0px;
   margin: 0px;
 }
 
 .main_body_wrapper .form .form-control {
-  max-width: 768px;
+  max-width: 100%;
 }
 
 .main_body_wrapper .form .form-group {
@@ -75,8 +75,9 @@
     -ms-grid-columns: 960px 960px;
         grid-template-columns: 960px 960px;
     margin-bottom: 130px;
+    /*end of form*/
   }
-  .form {
+  .main_body_wrapper .form {
     -ms-grid-column: 1;
     grid-column: 1;
     -ms-grid-row: 1;
@@ -88,14 +89,13 @@
     padding: 0px;
     margin: 0px;
   }
-  .form .form-control {
+  .main_body_wrapper .form .form-control {
     max-width: 960px;
   }
-  .form .form-group {
+  .main_body_wrapper .form .form-group {
     width: 50%;
   }
-  /*end of form*/
-  .text {
+  .main_body_wrapper .text {
     -ms-grid-row: 1;
     grid-row: 1;
     -ms-grid-column: 2;
@@ -103,7 +103,7 @@
     width: 100%;
     height: auto;
   }
-  .map {
+  .main_body_wrapper .map {
     -ms-grid-row: 2;
     grid-row: 2;
     -ms-grid-column: 2;
