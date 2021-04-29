@@ -95,11 +95,11 @@
     margin: 0px;
   }
   .main_body_wrapper .form .form-control {
-    max-width: 75%;
+    max-width: 100%;
   }
   .main_body_wrapper .form .form-group {
-    width: 50%;
-    padding-left: 0;
+    width: 100%;
+    padding: 1em;
   }
   .main_body_wrapper .text {
     -ms-grid-row: 1;
