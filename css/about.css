@@ -79,7 +79,6 @@
         grid-template-rows: auto auto auto;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
-    margin-bottom: 15%;
     /*end of form*/
   }
   .main_body_wrapper .form {
@@ -118,11 +117,8 @@
     max-width: 100%;
   }
   .main_body_wrapper .map iframe {
-    width: 100%;
-    padding-right: 10%;
-  }
-  .main_body_wrapper .map .map iframe {
     height: 600px;
+    overflow: none;
   }
 }
 /*# sourceMappingURL=about.css.map */
