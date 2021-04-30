@@ -1,0 +1,41 @@
+.main_body_wrapper{
+    grid-row: 3;
+        display:grid;
+        grid-template-columns: 0.1fr 1fr 1fr 1fr 0.1fr;
+        .left_feed{
+            width:90%;
+            max-height: 100%;
+            margin-right: 10%;
+        }
+        .text{
+            width:100%;
+        }
+        .right_feed{
+            width:90%;
+            max-height: 100%;
+            margin-left: 10%;
+        }
+}/* end of main_body_wrapper*/
+
+@media only screen and (min-width:768px){
+    .main_body_wrapper{
+        grid-row: 3;
+        display:grid;
+        grid-template-columns: 0.1fr 1fr 1fr 1fr 0.1fr;
+        .left_feed{
+            width:90%;
+            max-height: 100%;
+            margin-right: 10%;
+        }
+        .text{
+            width:100%;
+        }
+        .right_feed{
+            width:90%;
+            max-height: 100%;
+            margin-left: 10%;
+        }
+    }  
+}
+
+/* YEAH SO THIS IS ALL SHAGGED*/

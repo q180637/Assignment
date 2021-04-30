@@ -1,1 +1,52 @@
-/* No CSS *//*# sourceMappingURL=community.css.map */
+.main_body_wrapper {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.1fr 1fr 1fr 1fr 0.1fr;
+      grid-template-columns: 0.1fr 1fr 1fr 1fr 0.1fr;
+}
+
+.main_body_wrapper .left_feed {
+  width: 90%;
+  max-height: 100%;
+  margin-right: 10%;
+}
+
+.main_body_wrapper .text {
+  width: 100%;
+}
+
+.main_body_wrapper .right_feed {
+  width: 90%;
+  max-height: 100%;
+  margin-left: 10%;
+}
+
+/* end of main_body_wrapper*/
+@media only screen and (min-width: 768px) {
+  .main_body_wrapper {
+    -ms-grid-row: 3;
+    grid-row: 3;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.1fr 1fr 1fr 1fr 0.1fr;
+        grid-template-columns: 0.1fr 1fr 1fr 1fr 0.1fr;
+  }
+  .main_body_wrapper .left_feed {
+    width: 90%;
+    max-height: 100%;
+    margin-right: 10%;
+  }
+  .main_body_wrapper .text {
+    width: 100%;
+  }
+  .main_body_wrapper .right_feed {
+    width: 90%;
+    max-height: 100%;
+    margin-left: 10%;
+  }
+}
+
+/* YEAH SO THIS IS ALL SHAGGED*/
+/*# sourceMappingURL=community.css.map */
