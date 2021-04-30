@@ -1,0 +1,10 @@
+.main_body_wrapper{
+    grid-row: 3;
+}/* end of main_body_wrapper*/
+
+@media only screen and (min-width:768px){
+    .main_body_wrapper{
+       grid-row: 3;
+       
+    }  
+}
