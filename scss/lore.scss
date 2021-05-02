@@ -5,6 +5,44 @@
 @media only screen and (min-width:768px){
     .main_body_wrapper{
        grid-row: 3;
-       
+       display: grid;
+       grid-template-rows: 1fr 1fr;
+       grid-gap:1em;
+       .images{
+           grid-row: 1;
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr 1fr;
+           grid-gap:1em;
+           .image_one{
+               grid-column: 1;
+           }
+           .image_two{
+               grid-column: 2;
+           }
+           .image_three{
+               grid-column: 3;
+           }
+           .image_four{
+               grid-column: 4;
+           }
+       }
+       .descriptions{
+           grid-row: 2;
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr 1fr;
+           grid-gap:1em;
+           .desc_one{
+                grid-column: 1;
+           }
+           .desc_two{
+                grid-column: 2;
+           }
+           .desc_three{
+                grid-column: 3;
+           }
+           .desc_four{
+                grid-column: 4;               
+           }
+       }
     }  
 }
