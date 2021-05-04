@@ -1,0 +1,107 @@
+.main_body_wrapper{
+    grid-row: 3;
+    grid-template-rows: repeat(16, 1fr);
+    .launch_image img{
+        grid-row: 1;
+
+    }
+    .launch_desc{
+        grid-row: 2;
+
+    }
+    .curse_image img{
+        grid-row: 3;
+
+    }
+    .curse_desc{
+        grid-row: 4;
+
+    }
+    .warmind_image img{
+        grid-row: 5;
+ 
+    }
+    .warmind_desc{
+        grid-row: 6;
+    }
+    .forsaken_image img{
+        grid-row: 7;
+
+    }
+    .forsaken_desc{
+        grid-row: 8;
+
+    }
+}/* end of main_body_wrapper*/
+
+@media only screen and (min-width:768px){
+     .main_body_wrapper{
+        grid-row: 3;
+        display:grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.5em;
+        .row_one{
+            grid-row: 1;
+            .launch_image img{
+                grid-row: 1;
+                grid-column: 1;
+            }
+            .launch_desc{
+                grid-row: 1;
+                grid-column: 1;
+            }
+            .curse_image img{
+                grid-row: 1;
+                grid-column: 2;
+            }
+            .curse_desc{
+                grid-row: 1;
+                grid-column: 2;
+            }
+            .warmind_image img{
+                grid-row: 1;
+                grid-column: 3;
+            }
+            .warmind_desc{
+                grid-row: 1;
+                grid-column: 3;
+            }
+            .forsaken_image img{
+                grid-row: 1;
+                grid-column: 4;
+            }
+            .forsaken_desc{
+                grid-row: 1;
+                grid-column: 4;
+            }
+        }
+        .row_two{
+            grid-row:2;
+            .shadowkeep_image{
+                grid-column: 1;
+            }
+            .shadowkeep_desc{
+                grid-column: 1;
+            }
+            .bl_image{
+                grid-column: 2;
+            }
+            .bl_desc{
+                grid-column: 2;
+            }
+            .twq_image{
+                grid-column: 3;
+            }
+            .twq_desc{
+                grid-column: 3;
+            }
+            .lightfall_image{
+                grid-column: 4;
+            }
+            .lightfall_desc{
+                grid-column: 4;
+            }
+        }
+    }    
+}

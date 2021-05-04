@@ -1,1 +1,150 @@
-/* No CSS *//*# sourceMappingURL=history.css.map */
+.main_body_wrapper {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-rows: (1fr)[16];
+      grid-template-rows: repeat(16, 1fr);
+}
+
+.main_body_wrapper .launch_image img {
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+.main_body_wrapper .launch_desc {
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+.main_body_wrapper .curse_image img {
+  -ms-grid-row: 3;
+  grid-row: 3;
+}
+
+.main_body_wrapper .curse_desc {
+  -ms-grid-row: 4;
+  grid-row: 4;
+}
+
+.main_body_wrapper .warmind_image img {
+  -ms-grid-row: 5;
+  grid-row: 5;
+}
+
+.main_body_wrapper .warmind_desc {
+  -ms-grid-row: 6;
+  grid-row: 6;
+}
+
+.main_body_wrapper .forsaken_image img {
+  -ms-grid-row: 7;
+  grid-row: 7;
+}
+
+.main_body_wrapper .forsaken_desc {
+  -ms-grid-row: 8;
+  grid-row: 8;
+}
+
+/* end of main_body_wrapper*/
+@media only screen and (min-width: 768px) {
+  .main_body_wrapper {
+    -ms-grid-row: 3;
+    grid-row: 3;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    gap: 0.5em;
+  }
+  .main_body_wrapper .row_one {
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  .main_body_wrapper .row_one .launch_image img {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .main_body_wrapper .row_one .launch_desc {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .main_body_wrapper .row_one .curse_image img {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 2;
+    grid-column: 2;
+  }
+  .main_body_wrapper .row_one .curse_desc {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 2;
+    grid-column: 2;
+  }
+  .main_body_wrapper .row_one .warmind_image img {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 3;
+    grid-column: 3;
+  }
+  .main_body_wrapper .row_one .warmind_desc {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 3;
+    grid-column: 3;
+  }
+  .main_body_wrapper .row_one .forsaken_image img {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 4;
+    grid-column: 4;
+  }
+  .main_body_wrapper .row_one .forsaken_desc {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 4;
+    grid-column: 4;
+  }
+  .main_body_wrapper .row_two {
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+  .main_body_wrapper .row_two .shadowkeep_image {
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .main_body_wrapper .row_two .shadowkeep_desc {
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .main_body_wrapper .row_two .bl_image {
+    -ms-grid-column: 2;
+    grid-column: 2;
+  }
+  .main_body_wrapper .row_two .bl_desc {
+    -ms-grid-column: 2;
+    grid-column: 2;
+  }
+  .main_body_wrapper .row_two .twq_image {
+    -ms-grid-column: 3;
+    grid-column: 3;
+  }
+  .main_body_wrapper .row_two .twq_desc {
+    -ms-grid-column: 3;
+    grid-column: 3;
+  }
+  .main_body_wrapper .row_two .lightfall_image {
+    -ms-grid-column: 4;
+    grid-column: 4;
+  }
+  .main_body_wrapper .row_two .lightfall_desc {
+    -ms-grid-column: 4;
+    grid-column: 4;
+  }
+}
+/*# sourceMappingURL=history.css.map */
