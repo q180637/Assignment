@@ -1,12 +1,48 @@
-.main_body_wrapper{
-    grid-row: 3;
-}/* end of main_body_wrapper*/
-
+@media only screen and (max-width: 768px) {   //for some reason this is needed on this page to prevent desktop one somehow taking some of these properties
+   .main_body_wrapper{
+        grid-row: 3;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 100%;
+        .images{
+            display:none; //this is a temporary fix for the images they need to be positioned properly at some point
+            .image_one img{
+                grid-row: 1;
+            }
+            .image_two img{
+                grid-row: 3;
+            }
+            .image_three img{
+                grid-row: 5;
+            }
+            .image_four img{
+                grid-row: 7;
+            }
+        }
+        .descriptions{
+            .desc_one{
+                grid-row: 2;
+            }
+            .desc_two{
+                    grid-row: 4;
+            }
+            .desc_three{
+                    grid-row: 6;
+            }
+            .desc_four{
+                    grid-row: 8;               
+            }
+            a{
+                color: lightgray;
+            } 
+        }
+    }/* end of main_body_wrapper*/
+}
 @media only screen and (min-width:768px){
     .main_body_wrapper{
        grid-row: 3;
        display: grid;
-       grid-template-rows: 1fr 1fr;
+       grid-template-rows: 0.75fr 1fr;
        grid-gap:1em;
        .images{
            grid-row: 1;
@@ -42,6 +78,9 @@
            }
            .desc_four{
                 grid-column: 4;               
+           }
+           a{
+               color: lightgray;
            }
        }
     }  
