@@ -26,19 +26,26 @@
     .main_body_wrapper{
         grid-row: 3;
         display:grid;
-        grid-template-columns: 0.1fr 1fr 1fr 1fr 0.1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
         .left_feed{
             width:90%;
             max-height: 100%;
             margin-right: 10%;
+            grid-column: 1;
+            grid-row: 1;
         }
         .text{
             width:100%;
+            grid-column: 2;
+            grid-row: 1;
         }
         .right_feed{
             width:90%;
             max-height: 100%;
             margin-left: 10%;
+            grid-column: 3;
+            grid-row: 1;
         }
     }  
 }

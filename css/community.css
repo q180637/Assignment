@@ -38,21 +38,35 @@
     grid-row: 3;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 0.1fr 1fr 1fr 1fr 0.1fr;
-        grid-template-columns: 0.1fr 1fr 1fr 1fr 0.1fr;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
   }
   .main_body_wrapper .left_feed {
     width: 90%;
     max-height: 100%;
     margin-right: 10%;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    grid-row: 1;
   }
   .main_body_wrapper .text {
     width: 100%;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 1;
+    grid-row: 1;
   }
   .main_body_wrapper .right_feed {
     width: 90%;
     max-height: 100%;
     margin-left: 10%;
+    -ms-grid-column: 3;
+    grid-column: 3;
+    -ms-grid-row: 1;
+    grid-row: 1;
   }
 }
 /*# sourceMappingURL=community.css.map */
