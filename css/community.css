@@ -3,24 +3,32 @@
   grid-row: 3;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 0.1fr 1fr 1fr 1fr 0.1fr;
-      grid-template-columns: 0.1fr 1fr 1fr 1fr 0.1fr;
+  -ms-grid-rows: 0.5fr 1fr 0.5fr;
+      grid-template-rows: 0.5fr 1fr 0.5fr;
 }
 
 .main_body_wrapper .left_feed {
   width: 90%;
   max-height: 100%;
-  margin-right: 10%;
+  margin-right: 5%;
+  margin-left: 5%;
+  -ms-grid-row: 1;
+  grid-row: 1;
 }
 
 .main_body_wrapper .text {
   width: 100%;
+  -ms-grid-row: 2;
+  grid-row: 2;
 }
 
 .main_body_wrapper .right_feed {
   width: 90%;
   max-height: 100%;
-  margin-left: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  -ms-grid-row: 3;
+  grid-row: 3;
 }
 
 /* end of main_body_wrapper*/

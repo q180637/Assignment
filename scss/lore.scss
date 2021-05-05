@@ -1,40 +1,32 @@
 @media only screen and (max-width: 768px) {   //for some reason this is needed on this page to prevent desktop one somehow taking some of these properties
    .main_body_wrapper{
         grid-row: 3;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        
         grid-template-columns: 100%;
         .images{
             display:none; //this is a temporary fix for the images they need to be positioned properly at some point
-            .image_one img{
-                grid-row: 1;
-            }
-            .image_two img{
-                grid-row: 3;
-            }
-            .image_three img{
-                grid-row: 5;
-            }
-            .image_four img{
-                grid-row: 7;
-            }
         }
         .descriptions{
+        display: grid;
+        grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr;
             .desc_one{
-                grid-row: 2;
+                grid-row: 1;
             }
             .desc_two{
-                    grid-row: 4;
+                grid-row: 2;
             }
             .desc_three{
-                    grid-row: 6;
+                grid-row: 3;
             }
             .desc_four{
-                    grid-row: 8;               
+                grid-row: 4;               
             }
             a{
                 color: lightgray;
-            } 
+            }
+            p{
+                padding: 0.5em;
+            }
         }
     }/* end of main_body_wrapper*/
 }
@@ -51,17 +43,37 @@
            grid-gap:1em;
            .image_one{
                grid-column: 1;
+               img{
+                    width: 25%;
+                    padding-left: 37.5%;
+                    padding-top: 17.25%;
+                }
            }
            .image_two{
                grid-column: 2;
+               img{
+                    width: 25%;
+                    padding-left: 37.5%;
+                    padding-top: 17.25%;
+                }
            }
            .image_three{
                grid-column: 3;
+               img{
+                    width: 25%;
+                    padding-left: 37.5%;
+                    padding-top: 17.25%;
+                }
            }
            .image_four{
                grid-column: 4;
-           }
-       }
+               img{
+                    width: 25%;
+                    padding-left: 37.5%;
+                    padding-top: 17.25%;
+                }
+            }
+        }
        .descriptions{
            grid-row: 2;
            display: grid;

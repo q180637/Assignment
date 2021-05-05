@@ -1,54 +1,130 @@
-.main_body_wrapper{
-    grid-row: 3;
-    grid-template-rows: repeat(16, 1fr);
-    .launch_image img{
-        grid-row: 1;
-
-    }
-    .launch_desc{
-        grid-row: 2;
-
-    }
-    .curse_image img{
+@media only screen and (max-width: 768px) {
+    .main_body_wrapper{
         grid-row: 3;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 100%;
+        max-width: 100%;
+        .row_one{
+            grid-column: 1;
+            display: grid;
+            grid-template-rows: repeat(8, auto);
+            max-width: 100%;
+            .launch_image{
+                grid-row: 1;
+                max-width: 100%;
+                img{
+                    width: 75%;
+                    padding-left: 12.5%;
+                }
+            }
+            .launch_desc{
+                grid-row: 2;
+                max-width: 100%;
+            }
+            .curse_image{
+                grid-row: 3;
+                max-width: 100%;
+                img{
+                    width: 75%;
+                    padding-left: 12.5%;
+                }
+            }
+            .curse_desc{
+                grid-row: 4;
+                max-width: 100%;
+            }
+            .warmind_image{
+                grid-row: 5;
+                max-width: 100%;
+                img{
+                    width: 75%;
+                    padding-left: 12.5%;
+                }
+            }
+            .warmind_desc{
+                grid-row: 6;
+                max-width: 100%;
+            }
+            .forsaken_image{
+                grid-row: 7;
+                max-width: 100%;
+                img{
+                    width: 75%;
+                    padding-left: 12.5%;
+                }
+            }
+            .forsaken_desc{
+                grid-row: 8;
+                max-width: 100%;
+            }
+        }
+        .row_two{
+            grid-column: 1;
+            display: grid;
+            grid-template-rows: repeat(8, auto);
+            .shadowkeep_image{
+                grid-row: 1;
+                img{
+                    width: 75%;
+                    padding-left: 12.5%;
+                }
+            }
+            .shadowkeep_desc{
+                grid-row: 2;
+            }
+            .bl_image{
+                grid-row: 3;
+                img{
+                    width: 75%;
+                    padding-left: 12.5%;
+                }
+            }
+            .bl_desc{
+                grid-row: 4;
+            }
+            .twq_image{
+                grid-row: 5;
+                img{
+                    width: 75%;
+                    padding-left: 12.5%;
+                }
+            }
+            .twq_desc{
+                grid-row: 6;
+            }
+            .lightfall_image{
+                grid-row: 7;
+                img{
+                    width: 75%;
+                    padding-left: 12.5%;
+                }
+            }
+            .lightfall_desc{
+                grid-row: 8;
+            }
+        }
 
-    }
-    .curse_desc{
-        grid-row: 4;
-
-    }
-    .warmind_image img{
-        grid-row: 5;
- 
-    }
-    .warmind_desc{
-        grid-row: 6;
-    }
-    .forsaken_image img{
-        grid-row: 7;
-
-    }
-    .forsaken_desc{
-        grid-row: 8;
-
-    }
-}/* end of main_body_wrapper*/
-
+    }/* end of main_body_wrapper*/
+}
 @media only screen and (min-width:768px){
      .main_body_wrapper{
         grid-row: 3;
         display:grid;
         grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: repeat(4, 1fr);
+        
         gap: 0.5em;
         .row_one{
             grid-row: 1;
+            display: grid;
+            grid-template-rows: repeat(2, 0.5fr);
+            grid-template-columns: repeat(4, 1fr);
             .launch_image img{
                 grid-row: 1;
                 grid-column: 1;
             }
             .launch_desc{
-                grid-row: 1;
+                grid-row: 2;
                 grid-column: 1;
             }
             .curse_image img{
@@ -56,7 +132,7 @@
                 grid-column: 2;
             }
             .curse_desc{
-                grid-row: 1;
+                grid-row: 2;
                 grid-column: 2;
             }
             .warmind_image img{
@@ -64,7 +140,7 @@
                 grid-column: 3;
             }
             .warmind_desc{
-                grid-row: 1;
+                grid-row: 2;
                 grid-column: 3;
             }
             .forsaken_image img{
@@ -72,34 +148,51 @@
                 grid-column: 4;
             }
             .forsaken_desc{
-                grid-row: 1;
+                grid-row: 2;
                 grid-column: 4;
             }
         }
         .row_two{
             grid-row:2;
+            display: grid;
+            grid-template-rows: repeat(2, 0.5fr);
+            grid-template-columns: repeat(4, 1fr);
             .shadowkeep_image{
+                grid-row: 1;
                 grid-column: 1;
             }
             .shadowkeep_desc{
+                grid-row: 2;
                 grid-column: 1;
             }
             .bl_image{
+                grid-row: 1;
                 grid-column: 2;
             }
             .bl_desc{
+                grid-row: 2;
                 grid-column: 2;
             }
             .twq_image{
+                grid-row: 1;
                 grid-column: 3;
+                img{
+                  padding-left: 25%;  
+                }
             }
             .twq_desc{
+                grid-row: 2;
                 grid-column: 3;
             }
             .lightfall_image{
+                grid-row: 1;
                 grid-column: 4;
+                img{
+                    padding-left: 25%;  
+                }
             }
             .lightfall_desc{
+                grid-row: 2;
                 grid-column: 4;
             }
         }
