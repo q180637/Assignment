@@ -10,10 +10,18 @@
             display: grid;
             grid-template-rows: repeat(8, auto);
             max-width: 100%;
+            text-align: justify;
+            h4{
+                padding: 2.5%;
+            }
+            p{
+                padding: 2.5%;
+            }
             .launch_image{
                 grid-row: 1;
                 max-width: 100%;
                 img{
+                    padding-top: 12.5%;
                     width: 75%;
                     padding-left: 12.5%;
                 }
@@ -63,6 +71,13 @@
             grid-column: 1;
             display: grid;
             grid-template-rows: repeat(8, auto);
+            text-align: justify;
+            h4{
+                padding: 5%;
+            }
+            p{
+                padding: 5%;
+            }
             .shadowkeep_image{
                 grid-row: 1;
                 img{
@@ -88,6 +103,7 @@
                 img{
                     width: 75%;
                     padding-left: 12.5%;
+                    filter: invert(1);
                 }
             }
             .twq_desc{
@@ -98,6 +114,7 @@
                 img{
                     width: 75%;
                     padding-left: 12.5%;
+                    filter: invert(1);
                 }
             }
             .lightfall_desc{
@@ -112,13 +129,20 @@
         grid-row: 3;
         display:grid;
         grid-template-rows: repeat(2, 1fr);
-        
-        gap: 0.5em;
+        gap: 1em;
         .row_one{
             grid-row: 1;
             display: grid;
             grid-template-rows: repeat(2, 0.5fr);
             grid-template-columns: repeat(4, 1fr);
+            gap: 1em;
+            text-align: justify;
+            h4{
+                padding: 5%;
+            }
+            p{
+                padding: 5%;
+            }
             .launch_image img{
                 grid-row: 1;
                 grid-column: 1;
@@ -157,6 +181,14 @@
             display: grid;
             grid-template-rows: repeat(2, 0.5fr);
             grid-template-columns: repeat(4, 1fr);
+            gap: 1em;
+            text-align: justify;
+            p{
+                padding: 5%;
+            }
+            h4{
+                padding: 5%;
+            }
             .shadowkeep_image{
                 grid-row: 1;
                 grid-column: 1;
@@ -178,6 +210,7 @@
                 grid-column: 3;
                 img{
                   padding-left: 25%;  
+                  filter: invert(1);
                 }
             }
             .twq_desc{
@@ -188,7 +221,8 @@
                 grid-row: 1;
                 grid-column: 4;
                 img{
-                    padding-left: 25%;  
+                    padding-left: 25%;
+                    filter: invert(1);
                 }
             }
             .lightfall_desc{

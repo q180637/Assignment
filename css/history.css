@@ -18,6 +18,13 @@
     -ms-grid-rows: (auto)[8];
         grid-template-rows: repeat(8, auto);
     max-width: 100%;
+    text-align: justify;
+  }
+  .main_body_wrapper .row_one h4 {
+    padding: 2.5%;
+  }
+  .main_body_wrapper .row_one p {
+    padding: 2.5%;
   }
   .main_body_wrapper .row_one .launch_image {
     -ms-grid-row: 1;
@@ -25,6 +32,7 @@
     max-width: 100%;
   }
   .main_body_wrapper .row_one .launch_image img {
+    padding-top: 12.5%;
     width: 75%;
     padding-left: 12.5%;
   }
@@ -82,6 +90,13 @@
     display: grid;
     -ms-grid-rows: (auto)[8];
         grid-template-rows: repeat(8, auto);
+    text-align: justify;
+  }
+  .main_body_wrapper .row_two h4 {
+    padding: 5%;
+  }
+  .main_body_wrapper .row_two p {
+    padding: 5%;
   }
   .main_body_wrapper .row_two .shadowkeep_image {
     -ms-grid-row: 1;
@@ -114,6 +129,8 @@
   .main_body_wrapper .row_two .twq_image img {
     width: 75%;
     padding-left: 12.5%;
+    -webkit-filter: invert(1);
+            filter: invert(1);
   }
   .main_body_wrapper .row_two .twq_desc {
     -ms-grid-row: 6;
@@ -126,6 +143,8 @@
   .main_body_wrapper .row_two .lightfall_image img {
     width: 75%;
     padding-left: 12.5%;
+    -webkit-filter: invert(1);
+            filter: invert(1);
   }
   .main_body_wrapper .row_two .lightfall_desc {
     -ms-grid-row: 8;
@@ -142,7 +161,7 @@
     display: grid;
     -ms-grid-rows: (1fr)[2];
         grid-template-rows: repeat(2, 1fr);
-    gap: 0.5em;
+    gap: 1em;
   }
   .main_body_wrapper .row_one {
     -ms-grid-row: 1;
@@ -153,6 +172,14 @@
         grid-template-rows: repeat(2, 0.5fr);
     -ms-grid-columns: (1fr)[4];
         grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    text-align: justify;
+  }
+  .main_body_wrapper .row_one h4 {
+    padding: 5%;
+  }
+  .main_body_wrapper .row_one p {
+    padding: 5%;
   }
   .main_body_wrapper .row_one .launch_image img {
     -ms-grid-row: 1;
@@ -211,6 +238,14 @@
         grid-template-rows: repeat(2, 0.5fr);
     -ms-grid-columns: (1fr)[4];
         grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    text-align: justify;
+  }
+  .main_body_wrapper .row_two p {
+    padding: 5%;
+  }
+  .main_body_wrapper .row_two h4 {
+    padding: 5%;
   }
   .main_body_wrapper .row_two .shadowkeep_image {
     -ms-grid-row: 1;
@@ -244,6 +279,8 @@
   }
   .main_body_wrapper .row_two .twq_image img {
     padding-left: 25%;
+    -webkit-filter: invert(1);
+            filter: invert(1);
   }
   .main_body_wrapper .row_two .twq_desc {
     -ms-grid-row: 2;
@@ -259,6 +296,8 @@
   }
   .main_body_wrapper .row_two .lightfall_image img {
     padding-left: 25%;
+    -webkit-filter: invert(1);
+            filter: invert(1);
   }
   .main_body_wrapper .row_two .lightfall_desc {
     -ms-grid-row: 2;
