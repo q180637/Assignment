@@ -102,10 +102,12 @@
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1em;
+    text-align: justify;
   }
   .main_body_wrapper .descriptions .desc_one {
     -ms-grid-column: 1;
     grid-column: 1;
+    padding-left: 1em;
   }
   .main_body_wrapper .descriptions .desc_two {
     -ms-grid-column: 2;
@@ -118,6 +120,7 @@
   .main_body_wrapper .descriptions .desc_four {
     -ms-grid-column: 4;
     grid-column: 4;
+    padding-right: 1em;
   }
   .main_body_wrapper .descriptions a {
     color: lightgray;

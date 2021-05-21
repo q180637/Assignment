@@ -79,8 +79,10 @@
            display: grid;
            grid-template-columns: 1fr 1fr 1fr 1fr;
            grid-gap:1em;
+           text-align: justify;
            .desc_one{
                 grid-column: 1;
+                padding-left: 1em;
            }
            .desc_two{
                 grid-column: 2;
@@ -89,7 +91,8 @@
                 grid-column: 3;
            }
            .desc_four{
-                grid-column: 4;               
+                grid-column: 4;
+                padding-right: 1em;               
            }
            a{
                color: lightgray;
