@@ -137,6 +137,10 @@
             grid-template-columns: repeat(4, 1fr);
             gap: 1em;
             text-align: justify;
+            img{
+                width: 75%;
+                padding-left: 12.5%;
+            }
             h4{
                 padding: 5%;
             }
@@ -183,6 +187,9 @@
             grid-template-columns: repeat(4, 1fr);
             gap: 1em;
             text-align: justify;
+            img{
+                width: 75%;
+            }
             p{
                 padding: 5%;
             }
@@ -192,6 +199,7 @@
             .shadowkeep_image{
                 grid-row: 1;
                 grid-column: 1;
+                img{                padding-left: 12.5%;}
             }
             .shadowkeep_desc{
                 grid-row: 2;
@@ -200,6 +208,7 @@
             .bl_image{
                 grid-row: 1;
                 grid-column: 2;
+                img{                padding-left: 12.5%;}
             }
             .bl_desc{
                 grid-row: 2;
@@ -209,6 +218,7 @@
                 grid-row: 1;
                 grid-column: 3;
                 img{
+                  width: 50%;
                   padding-left: 25%;  
                   filter: invert(1);
                 }
@@ -221,6 +231,7 @@
                 grid-row: 1;
                 grid-column: 4;
                 img{
+                    width: 50%;
                     padding-left: 25%;
                     filter: invert(1);
                 }
