@@ -184,45 +184,68 @@ body footer .policy {
   body .grid_wrapper nav ul li a:hover {
     color: black;
   }
-  body footer {
+  body .grid_wrapper footer {
     background-color: #24272e;
     -ms-grid-row: 4;
     grid-row: 4;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
     -ms-grid-rows: (1fr)[2];
         grid-template-rows: repeat(2, 1fr);
-    padding: 0px;
     height: auto;
     color: lightgray;
   }
-  body footer a {
+  body .grid_wrapper footer a {
     text-decoration: none;
     text-align: center;
     display: inline-block;
     color: inherit;
-    font-size: x-small;
-    padding-top: 0.5em;
-    margin-top: 0.5em;
+    font-size: small;
   }
-  body footer p {
+  body .grid_wrapper footer p {
     margin: 0px;
-    padding: 0px;
     height: 50px;
   }
-  body footer .footer_title {
+  body .grid_wrapper footer .footer_title {
     -ms-grid-row: 1;
     grid-row: 1;
+    -ms-grid-column: 1;
+    grid-column: 1;
     height: auto;
-    padding-top: 0.5em;
+    text-align: center;
+    font-size: larger;
   }
-  body footer .policy {
+  body .grid_wrapper footer .policy {
     -ms-grid-row: 2;
     grid-row: 2;
     -ms-grid-column: 1;
     grid-column: 1;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (1fr)[1];
+        grid-template-rows: repeat(1, 1fr);
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+  body .grid_wrapper footer .policy .tos {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  body .grid_wrapper footer .policy .privacy {
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  body .grid_wrapper footer .policy .faq {
+    -ms-grid-column: 3;
+    grid-column: 3;
+    -ms-grid-row: 1;
+    grid-row: 1;
   }
 }
 /*# sourceMappingURL=main.css.map */
